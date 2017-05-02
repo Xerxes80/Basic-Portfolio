@@ -68,14 +68,16 @@ header{
     margin: 10px 50px;
 }
 .article-photo{
-    margin: 22px 10px 10px 0;
+    margin: 20px 10px 10px 0;
     float: left;
     width: 250px;
-    height: 175px;
+    height: 170px;
 }
 .article-p{
     text-align: left;
     color: #777777;
+    font-weight: normal;
+    font-size: 14px;
 }
 .right{
     width: 270px;
