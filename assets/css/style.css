@@ -3,6 +3,7 @@ body{
     width: 100%;
     background-color:#ffffff;
     text-align: center;
+    line-height: 1.5;
 }
 header{
     height: 80px;
@@ -44,8 +45,7 @@ header{
     text-decoration: underline;
 }
 .main-container{
-    clear: both; 
-    background:url("../Background/stacked_circles/stacked_circles.png");
+    clear: both; background:url("../Background/grunge_wall/grunge_wall.png");
     height: 515px;
     overflow: auto;
 }
@@ -68,13 +68,14 @@ header{
     margin: 10px 50px;
 }
 .article-photo{
-    margin: 10px 10px 10px 0;
+    margin: 22px 10px 10px 0;
     float: left;
-    width: 200px;
-    height: 150px;
+    width: 250px;
+    height: 175px;
 }
 .article-p{
     text-align: left;
+    color: #777777;
 }
 .right{
     width: 270px;
@@ -102,15 +103,16 @@ h3{
     position: relative;
 }
 .tag{
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: normal;
     background-color: #4aaaa5; 
     position: absolute;
-    bottom: 50px;
+    bottom: 35px;
     left: 20px;
-    padding: 8px;
-    width: 216px;
+    padding: 10px;
+    width: 212px;
     color: #ffffff;
-    font-size: 18px;
-    
+    font-size: 16px;
 }
 .container-title{
     font-size: 24px;
@@ -134,8 +136,10 @@ h3{
 }
 #textarea{
     width: 100%;
-    height: 140px;
+    height: 120px;
     margin: 8px 0 10px 0;
+    color: #777777;
+    font-size: 14px;
 }
 #submit{
     font-size: 18px;
@@ -143,7 +147,7 @@ h3{
     border: none;
     color: #ffffff;
     padding: 12px 35px;
-    margin: 4px 0;
+    margin: 4px 0 40px 0;
     cursor: pointer;
 }
 .logo{
